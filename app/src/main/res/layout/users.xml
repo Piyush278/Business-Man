@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="@drawable/round1"
+    android:paddingTop="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tv"
+        android:textSize="22sp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:background="@drawable/round2"
+        android:padding="2dp"
+        android:onClick="FSu"
+        />
+</RelativeLayout>
